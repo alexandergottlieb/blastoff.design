@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run -it --rm -v $(pwd):/usr/app -p 8080:8080 blastoff
+docker run -t --rm -v $(pwd):/usr/src/app -p "4000:4000" starefossen/github-pages
